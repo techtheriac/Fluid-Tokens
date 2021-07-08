@@ -32,3 +32,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## More Importantly
+
+- Configure sass
+- Set CSS Resize
+- Global styles - resets and fluid token
+- Theming
+  - Map theme ui primitives to fluid tokens
+  - Restrict use of array based breakpoint to layout reflow
+  - Layout component should house application wide padding (fluid)
+
+## Conventions
+
+- Adhere to using backticks instead of quotes whilst refering to custom properties
+- You shouldn't necessarily tie font sizes to specific html elements.
+
+## ITCSS mappings to Theme UI

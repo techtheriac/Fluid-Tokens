@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+/** @jsxImportSource theme-ui */
+import "../styles/globals.scss";
+import { ThemeProvider } from "theme-ui";
+import { useEffect } from "react";
+import theme from "../theme/";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <ThemeProvider theme={theme}>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
